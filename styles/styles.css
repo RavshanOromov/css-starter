@@ -610,10 +610,14 @@ img {
   margin-right: 40px;
 }
 .socials-list-item_link {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
   text-decoration: none;
-  background-color: var(--white);
+  /* background-color: var(--white); */
 }
 .socials-list-item_img {
+  color: var(--white);
   width: 24px;
   height: 24px;
 }
